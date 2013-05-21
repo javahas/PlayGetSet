@@ -15,9 +15,11 @@ public class Application extends Controller {
 
 		model.firstName = "Guillaume";
 		model.lastName = "Bort";
+		model.age = 30;
 
 		System.out.println(model.firstName);
 		System.out.println(model.lastName);
+		System.out.println(model.age);
 
 		return ok(index.render(model));
 	}
