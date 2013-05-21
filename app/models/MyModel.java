@@ -14,7 +14,6 @@ public class MyModel extends Model {
 
 	public String firstName;
 	public String lastName;
-	public Integer age;
 
 	public String getFirstName() {
 
